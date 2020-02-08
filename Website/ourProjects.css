@@ -1,0 +1,30 @@
+.title {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    width: 27%;
+    padding: 3%;
+    text-align: center;
+}
+.addNewProject{
+	float: left;
+    width: 27%;
+    padding: 3%;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
